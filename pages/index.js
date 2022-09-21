@@ -16,10 +16,11 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href='https://nextjs.org'>my Next.js app!</a>
+                    {/* Welcome to <a href='https://nextjs.org'>my Next.js app!</a> */}
+                    Hello World!
                 </h1>
 
-                <p className={styles.description}>
+                {/* <p className={styles.description}>
                     Get started by editing{' '}
                     <code className={styles.code}>pages/index.js</code>
                 </p>
@@ -62,10 +63,10 @@ export default function Home() {
                             with Vercel.
                         </p>
                     </a>
-                </div>
+                </div> */}
             </main>
 
-            <footer className={styles.footer}>
+            {/* <footer className={styles.footer}>
                 <a
                     href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
                     target='_blank'
@@ -81,7 +82,7 @@ export default function Home() {
                         />
                     </span>
                 </a>
-            </footer>
+            </footer> */}
         </div>
     );
 }
